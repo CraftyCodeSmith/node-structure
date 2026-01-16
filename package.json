@@ -1,0 +1,16 @@
+{
+  "name": "@craftycodesmith/node-structure",
+  "version": "1.0.2",
+  "description": "Feature-based architecture generator",
+  "main": "dist/index.js",
+  "bin": {
+    "my-cli": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "files": [
+    "dist"
+  ]
+}
