@@ -9,10 +9,10 @@ A zero-dependency CLI tool to scaffold Node.js projects with a **Feature-Based (
 You can run this tool directly using `npx` without installation:
 ```bash
 # Initialize a new project
-npx your-package-name init [folder-name]
+npx @craftycodesmith/node-structure init [folder-name]
 
 # Generate a feature module
-npx your-package-name res [resource-name]
+npx @craftycodesmith/node-structure res [resource-name]
 ```
 
 ---
@@ -25,7 +25,7 @@ Creates a new project with the feature-based architecture structure.
 
 **Usage:**
 ```bash
-npx your-package-name init my-project
+npx @craftycodesmith/node-structure init my-project
 ```
 
 If no folder name is provided, it initializes in the current directory.
@@ -45,7 +45,7 @@ Generates a new feature module with Controller, Service, and Model files.
 
 **Usage:**
 ```bash
-npx your-package-name res User
+npx @craftycodesmith/node-structure res User
 ```
 
 This creates:
@@ -93,15 +93,15 @@ project-root/
 ## 📝 Example Workflow
 ```bash
 # 1. Create a new project
-npx your-package-name init my-app
+npx @craftycodesmith/node-structure init my-app
 
 # 2. Navigate to the project
 cd my-app
 
 # 3. Generate features
-npx your-package-name res User
-npx your-package-name res Product
-npx your-package-name res Order
+npx @craftycodesmith/node-structure res User
+npx @craftycodesmith/node-structure res Product
+npx @craftycodesmith/node-structure res Order
 
 # 4. Start building!
 ```
